@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "ifmystery"
           git add -A
           
-          arr[0]="😂 update-commit"
-          arr[1]="😱 update-commit"
-          arr[2]="👿 update-commit"
-          arr[3]="💩 update-commit"
-          arr[4]="🙏 update-commit"
-          arr[5]="🙈 update-commit"
-          arr[6]="🐐 update-commit"
-          arr[7]="🤖 update-commit"
-          arr[8]="🟩 update-commit"
-          arr[9]="👻 update-commit"
+          arr[0]="😂 awesome-project"
+          arr[1]="😱 awesome-project"
+          arr[2]="👿 awesome-project"
+          arr[3]="💩 awesome-project"
+          arr[4]="🙏 awesome-project"
+          arr[5]="🙈 awesome-project"
+          arr[6]="🐐 awesome-project"
+          arr[7]="🤖 awesome-project"
+          arr[8]="🟩 awesome-project"
+          arr[9]="👻 awesome-project"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
